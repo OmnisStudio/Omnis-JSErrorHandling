@@ -1,0 +1,2 @@
+;  override this method in order to check fields
+;  add your errors to the error list and return kFalse in case of errors

@@ -1,0 +1,7 @@
+
+Do iDataRow.$getErrorList() Returns lErrorList     ;; get the errors from the row object
+;  ; we assume that we receive a two column error list with column 1 is named „fieldname“ and column 2 is named „errortext“ from the $getErrorList method of the iDataRow
+For lErrorList.$line from 1 to lErrorList.$linecount step 1
+	Do $cinst.$objs.[lErrorList.fieldname].$errortext.$assign(lErrorList.errortext)
+End For
+Do $cinst.$setcurfield(lErrorList.1.fieldname)     ;; go to the first field in the list

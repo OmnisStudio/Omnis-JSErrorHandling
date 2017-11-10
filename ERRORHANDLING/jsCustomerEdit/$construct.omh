@@ -1,0 +1,2 @@
+Do iDataRow.$definefromsqlclass($tables.tbCustomer)
+Do inherited      ;; just in case the super class does something

@@ -1,0 +1,14 @@
+
+;  first clear the error list
+Do iErrorList.$clear()
+
+;  now we are going to enter the table specific business rules
+If isclear($cinst.customer_name)
+	Do iErrorList.$add('customer_name','"customer_name" must not be empty')
+End If
+
+If isclear($cinst.city)
+	Do iErrorList.$add('city','"city" must not be empty')
+End If
+
+Quit method iErrorList.$linecount=0     ;; Returnｓ true if no error

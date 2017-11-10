@@ -1,0 +1,15 @@
+
+Do iErrorList
+If $cinst.$checkData()
+	;  now we simulate the save
+	Quit method kTrue
+	;  the following would be done if the primary key is either filled or not
+	If $cinst.[iPrimaryKeyName]>0
+		;  note that the primary key must not be accessible in the UI
+		Quit method $cinst.$update($cinst)     ;; makes an update if there is a primary key already in the row
+	Else
+		Quit method $cinst.$insert()     ;; since no primary key in the row it will make an insert, also make sure to load the new PK from the DB within $insert
+	End If
+Else
+	Quit method kFalse
+End If

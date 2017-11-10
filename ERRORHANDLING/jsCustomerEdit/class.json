@@ -1,0 +1,117 @@
+{
+	"classtype": "kRemoteForm",
+	"internalversion": 119,
+	"superclass": "jsEditSuper",
+	"designtaskname": "rtTest",
+	"nextident": 1008,
+	"lastgroupident": 0,
+	"cvardefs": [
+
+	],
+	"ivardefs": [
+
+	],
+	"properties": {
+		"aligntogrid": false,
+		"animatelayouttransitions": false,
+		"collectperformancedata": false,
+		"componenttype": "kCompStoreHidden",
+		"contextmenu": "",
+		"createdate": "2016-12-15 12:32:37",
+		"defaultappearance": "kAppearanceiOS",
+		"desc": "",
+		"disabledefaultcontextmenu": false,
+		"editor": "",
+		"editordata": "",
+		"external": false,
+		"horzgrid": 8,
+		"inheritedorder": 0,
+		"issupercomponent": false,
+		"layouttype": "kLayoutTypeScreen",
+		"left": 0,
+		"moddate": "2016-12-15 13:47:24",
+		"screensize": "kSSZDesktop",
+		"serverlessclient": false,
+		"showascheckedout": false,
+		"showgrid": false,
+		"sizetogrid": false,
+		"title": {
+			"type": 0,
+			"calc": "jsEditSuper subclass"
+		},
+		"top": 0,
+		"userinfo": "",
+		"version": "",
+		"vertgrid": 8
+	},
+	"inheritedproperties": [
+		"designtaskname",
+		"componenticon",
+		"events",
+		"height",
+		"width",
+		"horzscroll",
+		"vertscroll",
+		"backcolor",
+		"backpattern",
+		"forecolor",
+		"backgroundtheme",
+		"effect",
+		"startfield",
+		"iconpages",
+		"okkeyobject",
+		"cancelkeyobject",
+		"alwaysenabledobject",
+		"backgroundskin",
+		"backgroundskinalign",
+		"openinwindow",
+		"designshowmobiletitle",
+		"backalpha",
+		"alpha",
+		"stringtabledata",
+		"stringtabledesignform",
+		"resizemode"
+	],
+	"screensizes": [
+		{
+			"name": "kSSZDesktop",
+			"width": 445,
+			"height": 428
+		},
+		{
+			"name": "kSSZjs320x480Portrait",
+			"width": 320,
+			"height": 460
+		},
+		{
+			"name": "kSSZjs320x480Landscape",
+			"width": 480,
+			"height": 300
+		},
+		{
+			"name": "kSSZjs768x1024Portrait",
+			"width": 768,
+			"height": 1004
+		},
+		{
+			"name": "kSSZjs768x1024Landscape",
+			"width": 1024,
+			"height": 748
+		},
+		{
+			"name": "kSSZjs345x345",
+			"width": 345,
+			"height": 325
+		},
+		{
+			"name": "kSSZjs360x640Portrait",
+			"width": 360,
+			"height": 620
+		},
+		{
+			"name": "kSSZjs360x640Landscape",
+			"width": 640,
+			"height": 340
+		}
+	]
+}

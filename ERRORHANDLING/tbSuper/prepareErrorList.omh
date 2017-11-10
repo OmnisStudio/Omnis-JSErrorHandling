@@ -1,0 +1,2 @@
+Do iErrorList.$cols.$add('fieldname',kCharacter,kSimplechar,255)
+Do iErrorList.$cols.$add('errortext',kCharacter,kSimplechar,255)

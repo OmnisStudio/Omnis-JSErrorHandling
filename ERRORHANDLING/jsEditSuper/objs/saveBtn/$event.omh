@@ -1,0 +1,7 @@
+On evClick
+	Do $cinst.$clientcommand('clearerrors',row())     ;; clear any previous errors
+	If iDataRow.$save()
+		Do $cinst.$showmessage('data saved')
+	Else
+		Do method setFieldErrors
+	End If
