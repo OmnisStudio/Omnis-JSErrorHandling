@@ -1,5 +1,4 @@
 
-Do iErrorList
 If $cinst.$checkData()
 	;  now we simulate the save
 	Quit method kTrue

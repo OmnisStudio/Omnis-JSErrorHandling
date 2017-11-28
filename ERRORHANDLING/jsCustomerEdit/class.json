@@ -1,6 +1,6 @@
 {
 	"classtype": "kRemoteForm",
-	"internalversion": 119,
+	"internalversion": 134,
 	"superclass": "jsEditSuper",
 	"designtaskname": "rtTest",
 	"nextident": 1008,
@@ -29,7 +29,7 @@
 		"issupercomponent": false,
 		"layouttype": "kLayoutTypeScreen",
 		"left": 0,
-		"moddate": "2016-12-15 13:47:24",
+		"moddate": "2017-11-24 09:30:45",
 		"screensize": "kSSZDesktop",
 		"serverlessclient": false,
 		"showascheckedout": false,

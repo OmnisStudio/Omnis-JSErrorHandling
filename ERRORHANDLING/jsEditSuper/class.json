@@ -1,6 +1,6 @@
 {
 	"classtype": "kRemoteForm",
-	"internalversion": 44,
+	"internalversion": 45,
 	"designtaskname": "rtTest",
 	"nextident": 1002,
 	"lastgroupident": 0,
@@ -45,7 +45,7 @@
 		"issupercomponent": false,
 		"layouttype": "kLayoutTypeScreen",
 		"left": 376,
-		"moddate": "2016-12-15 13:53:28",
+		"moddate": "2017-11-24 09:31:42",
 		"okkeyobject": "",
 		"resizemode": "kJSformResizeModeNone",
 		"screensize": "kSSZDesktop",
